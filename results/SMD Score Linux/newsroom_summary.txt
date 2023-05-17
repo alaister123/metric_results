@@ -1,0 +1,25 @@
+corr_metric  aspect                 approach  model  score_name
+spearmanr    InformativenessRating  trad      SMD    SMS           0.257
+                                    new       SMD    SMS           0.716
+             RelevanceRating        trad      SMD    SMS           0.273
+                                    new       SMD    SMS           0.638
+             CoherenceRating        trad      SMD    SMS           0.202
+                                    new       SMD    SMS           0.573
+             FluencyRating          trad      SMD    SMS           0.188
+                                    new       SMD    SMS           0.523
+pearsonr     InformativenessRating  trad      SMD    SMS          -0.113
+                                    new       SMD    SMS           0.475
+             RelevanceRating        trad      SMD    SMS          -0.078
+                                    new       SMD    SMS           0.384
+             CoherenceRating        trad      SMD    SMS          -0.097
+                                    new       SMD    SMS           0.393
+             FluencyRating          trad      SMD    SMS          -0.089
+                                    new       SMD    SMS           0.372
+kendalltau   InformativenessRating  trad      SMD    SMS           0.209
+                                    new       SMD    SMS           0.606
+             RelevanceRating        trad      SMD    SMS           0.215
+                                    new       SMD    SMS           0.531
+             CoherenceRating        trad      SMD    SMS           0.157
+                                    new       SMD    SMS           0.467
+             FluencyRating          trad      SMD    SMS           0.134
+                                    new       SMD    SMS           0.430
